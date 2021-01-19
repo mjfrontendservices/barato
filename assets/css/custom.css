@@ -1,0 +1,512 @@
+/* CSS Styling */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body p{
+    font-size: 13px;
+}
+
+/* global */
+
+.gold{
+    color: rgb(235, 170, 50);
+}
+
+.error,
+.success{
+    margin-top: 20px;
+}
+
+.no_acc a{
+    color:rgb(235, 170, 50);
+}
+
+.no_acc a:hover{
+    text-decoration: none;
+}
+
+.al_acc a{
+    color:rgb(235, 170, 50);
+}
+
+.al_acc a:hover{
+    text-decoration: none;
+}
+
+.forgot_password{
+    text-align: right;
+    font-size: 12px;
+}
+
+.direct{
+    color: grey;
+    font-size: 12px;
+}
+
+/* headers */
+
+.main_header{
+    padding: 10px 0 10px 0;
+    color: #fff;
+    background: rgb(235, 170, 50);
+}
+
+.main_header h3{
+    margin: 10px 0 10px 0;
+}
+
+.main_header p{
+    font-size: 8px;
+    margin-bottom: 0px;
+    text-align: right;
+}
+
+.main_header span{
+    margin-left: 5px;
+}
+
+.sub_header{
+    padding: 10px 0 10px 0;
+}
+
+.sub_header .container{
+    display: flex;
+}
+
+.sub_header .user{
+    width: 60%;
+    display: flex;
+}
+
+.sub_header .img{
+    width: 10%;
+}
+
+.sub_header img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.sub_header .name{
+    width: 90%;
+    padding: 10px 0 10px 0;
+}
+
+.sub_header h4{
+    font-size: 20px;
+}
+
+.sub_header .menus{
+    width: 40%;
+    padding: 10px 0 10px 0;
+}
+
+.sub_header p{
+    text-align: right;
+}
+
+.sub_header a{
+    color: #000;
+}
+
+.sub_header a:hover{
+    text-decoration: none;
+}
+
+.sub_header span{
+    margin-left: 20px;
+}
+
+.sub_header span:hover{
+    color:rgb(235, 170, 50);
+    cursor:pointer;
+}
+
+/* register */
+
+.form{
+    text-align: center;
+}
+
+.form h5{
+    margin: 30px 0 30px 0;
+}
+
+.form form{
+    padding: 20px;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+}
+
+.form input{
+    width: 100%;
+    padding: 10px;
+    font-size: 12px;
+    margin-bottom: 10px;
+    border: #000 1px solid;
+    border-radius: 20px;
+}
+
+.form .forgot_password_link{
+    color: #000;
+}
+
+.form .forgot_password_link:hover{
+    text-decoration: none;
+    color: rgb(247, 94, 38);
+}
+
+.form button{
+    width: 100%;
+    padding: 10px;
+    font-size: 12px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 20px;
+    background:rgb(235, 170, 50);
+    color: #fff;
+}
+
+/* homepage welcome page */
+
+.search_bar{
+    text-align: right;
+}
+
+.search_bar_input{
+    width: 30%;
+    border:rgb(235, 170, 50) 1px solid;
+    padding: 10px;
+    font-size: 12px;
+    border-radius: 20px;
+}
+
+/* items in welcome page */
+
+.items{
+    padding: 20px 0 20px 0;
+}
+
+.items h3{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.items .item_wrapper{
+    padding: 20px;
+    margin-bottom: 30px;
+    width: 30%;
+    height: 300px;
+    overflow: hidden;
+    background: #f4f4f4;
+    float: left;
+    margin-right: 30px;
+}
+
+.items .item_img{
+    height: 50%;
+}
+
+.items img{
+    width: 100%;
+    height: 100%;
+}
+
+.items .item_desc{
+    height: 50%;
+}
+
+.items .seller_address p{
+    font-size: 10px;
+}
+
+.items h4{
+    margin: 20px 0 0px 0;
+    font-size: 20px;
+}
+
+.items span{
+    font-size: 15px;
+    color: rgb(235, 170, 50);
+}
+
+/* logout */
+
+.logout p{
+    text-align: left;
+}
+
+/* user account */
+
+.user_account{
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+}
+
+.user_account .account_info{
+    width: 40%;
+    margin: auto;
+}
+
+.user_account h2{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.user_account img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border:rgb(235, 170, 50) 3px solid;
+}
+
+.user_account .info{
+    text-align: left;
+}
+
+.user_account button{
+    border: none;
+    font-size: 12px;
+    padding: 10px 30px 10px 30px;
+    background: rgb(235, 170, 50);
+    color: #fff;
+}
+
+.user_account form input{
+    width: 100%;
+    font-size: 12px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    padding: 10px
+}
+
+.user_account .uniq,
+.user_account .acc_pass{
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.user_account a{
+    color: #000;
+    font-size: 12px;
+}
+
+.user_account a:hover{
+    text-decoration: none;
+    color: rgb(235, 170, 50);
+}
+
+.user_account .upload_profile{
+    border: rgb(235, 170, 50) 2px solid;
+}
+
+/* sell something */
+
+.sell_something{
+    padding: 20px 0 20px 0;
+}
+
+.sell_something ._sell_button{
+    border: none;
+    padding: 10px 0 10px 0;
+    background:  rgb(208, 114, 42);
+    color: #fff;
+    width: 40%;
+    font-size: 12px;
+}
+
+.sell_something .products{
+    width: 50%;
+    display: flex;
+    background: #f4f4f4;
+    margin: 20px 0 20px 0;
+    height:100px;
+    overflow: hidden;
+}
+
+.sell_something .product_image{
+    width: 20%;
+}
+
+.sell_something_form ._product_img_note{
+   font-size: 10px;
+   color:rgb(247, 94, 38);
+}
+
+.sell_something img{
+    width:100px;
+    height: 100px;
+}
+
+.sell_something .product_details{
+    width: 60%;
+    padding: 0px 0 10px 0;
+}
+
+.sell_something .unsell{
+    width: 20%;
+}
+
+.sell_something .unsell button{
+    width: 100%;
+    border: none;
+    padding: 10px 0 10px 0;
+    background:  rgb(208, 114, 42);
+    color: #fff;
+    font-size: 12px;
+}
+
+.sell_something .sell_button{
+    padding: 5px 20px 5px 20px;
+    border: none;
+    font-size: 15px;
+    color: #fff;
+    background: rgb(208, 114, 42);
+}
+
+.sell_something .sell_history_h{
+    font-size: 20px;
+    margin: 20px 0 20px 0;
+}
+
+.sell_something h2{
+    font-size: 20px;
+    margin: 10px 0 0 0;
+}
+
+.sell_something_form{
+    padding: 20px 0 20px 0;
+    text-align: center;
+}
+
+.sell_something_form h2{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.sell_something_form img{
+    width: 400px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.sell_something_form a{
+    color:rgb(208, 114, 42);
+}
+
+.sell_something_form .product_image:hover{
+    color:#fff;
+    background: rgb(208, 114, 42);
+}
+
+.sell_something_form .product_image{
+    font-size: 12px;
+    margin: 20px 0 20px 0;
+    border:rgb(208, 114, 42) 2px solid;
+    padding: 10px 20px 10px 20px;
+}
+
+.sell_something_form form{
+    width: 50%;
+    margin: auto;
+}
+
+.sell_something_form input{
+    width: 100%;
+    padding: 10px;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.sell_something_form textarea{
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    font-size: 12px;
+}
+
+.sell_something_form .box{
+    width: 5%;
+}
+
+.sell_something_form .boxes{
+    text-align:inherit;
+}
+
+.sell_something_form label{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.sell_something_form button{
+    width: 100%;
+    padding: 10px 0 10px 0;
+    border: none;
+    background: rgb(235, 170, 50);
+    color: #fff;
+    font-size: 12px;
+}
+
+/* product details modal */
+
+.product_details_img img{
+    width: 100%;
+    height: 300px;
+    margin-bottom: 10px;
+}
+
+.product_id{
+    color:rgb(208, 114, 42);
+    font-size: 10px;
+}
+
+.product_details_name{
+    font-size: 20px;
+}
+
+.product_details_price{
+    color:rgb(208, 114, 42);
+}
+
+.product_details_description{
+    width: 100%;
+    font-size: 12px;
+    color: grey;
+    padding: 0 0 0 20px;
+}
+
+.product_details_seller{
+    font-size: 12px;
+}
+
+.product_details_seller_address{
+    font-size: 12px;
+}
+
+.product_details_seller_phone_number a{
+    color: rgb(208, 114, 42);
+    font-size: 12px;
+    padding: 10px;
+    border: rgb(208, 114, 42) 2px solid;
+    margin-right: 10px;
+}
+
+.product_details_seller_phone_number a:hover{
+    text-decoration: none;
+}
+
+.product_details_date{
+    font-size: 12px;
+}
+
+.modal-footer button{
+    width: 100%;
+    padding: 10px;
+    background: rgb(247, 94, 38);
+    color: #fff;
+    font-size: 12px;
+}

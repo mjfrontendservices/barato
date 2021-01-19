@@ -1,0 +1,177 @@
+/* CSS Styling Custom */
+@media(max-width: 1199px){
+    .sell_something .products {
+        width: 100%;
+        display: flex;
+        background: #f4f4f4;
+        margin: 20px 0 20px 0;
+        height: 100px;
+        overflow: hidden;
+    }
+}
+@media(max-width: 600px){
+    .sell_something .product_details {
+        width: 60%;
+        padding: 0px 0 10px 30px;
+    }
+    .sell_something_form img {
+        width: 100%;
+        height: 200px;
+        margin-bottom: 20px;
+    }
+    .sell_something_form form {
+        width: 100%;
+        margin: auto;
+        padding: 10px;
+    }
+    .sell_something_form input {
+        width: 90%;
+        padding: 10px;
+        font-size: 12px;
+        margin-bottom: 20px;
+        border: #000 1px solid;
+    }
+    .sell_something_form textarea {
+        width: 90%;
+        height: 200px;
+        padding: 10px;
+        font-size: 12px;
+        border: #000 1px solid;
+    }
+}
+@media(max-width: 400px){
+    .sell_something .product_details {
+        width: 60%;
+        padding: 0px 0 10px 40px;
+    }
+}
+@media(max-width: 991px){
+    .items .item_wrapper{
+        padding: 20px;
+        margin-bottom: 30px;
+        width: 45%;
+        height: 300px;
+        overflow: hidden;
+        background: #f4f4f4;
+        float: left;
+        margin-right: 30px;
+    }
+}
+
+@media(max-width: 991px){
+    .items .item_wrapper{
+        padding: 20px;
+        margin-bottom: 30px;
+        width: 44%;
+        height: 300px;
+        overflow: hidden;
+        background: #f4f4f4;
+        float: left;
+        margin-right: 30px;
+    }
+}
+
+@media(max-width: 767px){
+    .search_bar_input {
+        width: 100%;
+        border: rgb(235, 170, 50) 1px solid;
+        padding: 10px;
+        font-size: 12px;
+        border-radius: 20px;
+    }
+    .sub_header .user {
+        width: 100%;
+        display: flex;
+    }
+    .sub_header .container {
+        display: block;
+    }
+    .sub_header .menus {
+        width: 100%;
+        padding: 10px 0 10px 0;
+    }
+    .sub_header p {
+        text-align: center;
+    }
+    .sub_header .menus span{
+        margin: 0 20px 0 20px;
+    }
+    .sub_header h4{
+        font-size: 15px;
+        padding: 0 0 0 20px;
+    }
+    .user_account .account_info {
+        width: 100%;
+        margin: auto;
+    }
+    .form form {
+        padding: 20px;
+        text-align: center;
+        width: 100%;
+        margin: auto;
+    }
+    .items h4 {
+        margin: 20px 0 0px 0;
+        font-size: 15px;
+    }
+    .sell_something h2 {
+        font-size: 15px;
+        margin: 10px 0 0 0;
+    }
+}
+
+@media(max-width: 529px){
+    .items .item_wrapper{
+        padding: 10px;
+        margin-bottom: 30px;
+        width: 43%;
+        height: 300px;
+        overflow: hidden;
+        background: #f4f4f4;
+        float: left;
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+}
+
+@media(max-width: 458px){
+    .items .item_wrapper{
+        padding: 10px;
+        margin-bottom: 30px;
+        width: 42%;
+        height: 250px;
+        overflow: hidden;
+        background: #f4f4f4;
+        float: left;
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+}
+
+@media(max-width: 404px){
+    .items .item_wrapper{
+        padding: 10px;
+        margin-bottom: 30px;
+        width: 47%;
+        height: 250px;
+        overflow: hidden;
+        background: #f4f4f4;
+        float: left;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+}
+
+@media(max-width: 362px){
+    .items .item_wrapper{
+        padding: 10px;
+        margin-bottom: 30px;
+        width: 46%;
+        height: 250px;
+        overflow: hidden;
+        background: #f4f4f4;
+        float: left;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+}
