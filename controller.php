@@ -131,7 +131,7 @@ include 'assets/includes/header.php';
             $_allowed_ext = array('jpg', 'png', 'jpeg', 'svg');
             // uniq name
             $_uniqname = uniqid('', true).'.'.$_actual_ext;
-            $_dir = 'http://phpwithdb.rf.gd/assets/img/profile_pictures/'.$_uniqname;
+            $_dir = 'assets/img/profile_pictures/'.$_uniqname;
             if(!in_array($_actual_ext, $_allowed_ext)){  
                 ?>
                 <div class="container">
@@ -149,7 +149,7 @@ include 'assets/includes/header.php';
                     foreach ($data_users as $key => $value) {
                         if($value['id'] == $_SESSION['user']){
                             if($value['profile_picture'] != 'default.png'){
-                                unlink('http://phpwithdb.rf.gd/assets/img/profile_pictures/'.$value['profile_picture'].'');
+                                unlink('assets/img/profile_pictures/'.$value['profile_picture'].'');
                             }
                             $data_users[$key]['profile_picture'] = $_uniqname;
                             move_uploaded_file($_tmp, $_dir);
@@ -256,7 +256,7 @@ include 'assets/includes/header.php';
             $_ext = explode('.', $_name);
             $_needed_ext = strtolower(end($_ext));
             $_uniqname = uniqid('', true).".".$_needed_ext;
-            $_dir = 'http://phpwithdb.rf.gd/assets/img/uploads/'.$_uniqname;
+            $_dir = 'assets/img/uploads/'.$_uniqname;
             $_allowed_file_extension = array('jpg', 'jpeg', 'png', 'svg');
             if(!in_array($_needed_ext, $_allowed_file_extension)){
                 echo "Invalid file extension";
@@ -266,7 +266,7 @@ include 'assets/includes/header.php';
                     foreach ($data_product_img as $key => $value) {
                         if($value['product_pic'] == $_SESSION['product_image']){
                             array_splice($data_product_img, $key, 1);
-                            unlink('http://phpwithdb.rf.gd/assets/img/uploads/'.$value['product_pic'].'');
+                            unlink('assets/img/uploads/'.$value['product_pic'].'');
                         }
                     }
                     $_SESSION['product_image'] = $_uniqname;
