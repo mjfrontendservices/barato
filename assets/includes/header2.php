@@ -26,8 +26,8 @@
                             foreach ($data_users as $index => $property) {
                                 if($property['id'] == $user){
                                     ?>
-                                        <a href="http://phpwithdb.rf.gd/assets/img/profile_pictures/default.png">
-                                            <img src="http://phpwithdb.rf.gd/assets/img/profile_pictures/default.png" alt="">
+                                        <a href="assets/img/profile_pictures/<?php echo $property['profile_picture']?>">
+                                            <img src="assets/img/profile_pictures/<?php echo $property['profile_picture']?>" alt="">
                                         </a>
                                     <?php
                                 }
