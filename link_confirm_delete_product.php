@@ -26,7 +26,7 @@ $user = $_SESSION['user'];
             foreach ($data_products as $key => $value) {
                 if($value['id'] == $get_product_id){
                     array_splice($data_products, $key, 1);
-                    unlink('assets/img/uploads/'.$value['image'].'');
+                    unlink('assets/img/profile_pictures/'.$value['image'].'');
                     $data_product_insert = json_encode($data_products);
                     file_put_contents('assets/db/products.json', $data_product_insert);
                     header ('Location: sell_something.php');

@@ -39,7 +39,7 @@ $user = $_SESSION['user'];
                                 ?>
                                     <div class="products">
                                         <div class="product_image">
-                                            <img src="assets/img/uploads/<?php echo $value['image'];?>" alt="">
+                                            <img src="assets/img/profile_pictures/<?php echo $value['image'];?>" alt="">
                                         </div>
                                         <div class="product_details">
                                             <h2><?php echo $value['name'];?></h2>

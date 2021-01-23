@@ -34,7 +34,7 @@ $user = $_SESSION['user'];
                         foreach ($data_product_img as $key => $value) {
                             if($value['product_pic'] == $_SESSION['product_image']){
                                 ?>
-                                    <img src="assets/img/uploads/<?php echo $value['product_pic']?>" alt=""><br>
+                                    <img src="assets/img/profile_pictures/<?php echo $value['product_pic']?>" alt=""><br>
                                 <?php
                             }
                         }

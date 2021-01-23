@@ -41,7 +41,7 @@ $user = $_SESSION['user'];
                             ?>
                                 <div class="item_wrapper" data-toggle="modal" data-target="#<?php echo $value['id'];?>">
                                     <div class="item_img">
-                                        <img src="assets/img/uploads/<?php echo $value['image']?>" alt="">
+                                        <img src="assets/img/profile_pictures/<?php echo $value['image']?>" alt="">
                                     </div>
                                     <div class="item_desc">
                                         <h4><?php echo $value['name']?></h4>
@@ -88,8 +88,8 @@ $user = $_SESSION['user'];
                             </div>
                             <div class="modal-body">
                                 <div class="product_details_img">
-                                    <a href="assets/img/uploads/<?php echo $value['image']?>">
-                                        <img src="assets/img/uploads/<?php echo $value['image']?>" alt="">
+                                    <a href="assets/img/profile_pictures/<?php echo $value['image']?>">
+                                        <img src="assets/img/profile_pictures/<?php echo $value['image']?>" alt="">
                                     </a>
                                 </div>
                                 <div class="product_details_info">
