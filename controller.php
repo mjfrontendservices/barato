@@ -252,7 +252,7 @@ include 'assets/includes/header.php';
             $_ext = explode('.', $_name);
             $_needed_ext = strtolower(end($_ext));
             $_uniqname = uniqid('', true).".".$_needed_ext;
-            $_dir = 'assets/img/uploads/'.$_uniqname;
+            $_dir = 'assets/img/profile_pictures/'.$_uniqname;
             $_allowed_file_extension = array('jpg', 'jpeg', 'png', 'svg');
             if(!in_array($_needed_ext, $_allowed_file_extension)){
                 echo "Invalid file extension";
@@ -262,7 +262,7 @@ include 'assets/includes/header.php';
                     foreach ($data_product_img as $key => $value) {
                         if($value['product_pic'] == $_SESSION['product_image']){
                             array_splice($data_product_img, $key, 1);
-                            unlink('assets/img/uploads/'.$value['product_pic'].'');
+                            unlink('assets/img/profile_pictures/'.$value['product_pic'].'');
                         }
                     }
                     $_SESSION['product_image'] = $_uniqname;
