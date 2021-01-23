@@ -58,10 +58,6 @@ include 'assets/includes/header.php';
                     </div>
                 <?php
             } else {
-                // insert to username file
-                // $uniq_username = array(
-                //     self::$username => self::$username
-                // );
                 $data_uniq_usernames[] = self::$username;
                 $data_username_insert = json_encode($data_uniq_usernames);
                 file_put_contents('assets/db/uniq_usernames.json', $data_username_insert);
